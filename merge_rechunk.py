@@ -16,7 +16,14 @@ ADD_ELLIPSIS_ON_PAUSE = True
 # ------------------------------
 
 # Speaker mapping (names instead of codes)
-SPEAKER_MAP = {"SPEAKER_00": "Dave", "SPEAKER_01": "Sue", "SPK0": "Dave", "SPK1": "Sue"}
+SPEAKER_MAP = {
+    "SPEAKER_00": "Dave", 
+    "SPEAKER_01": "Sue", 
+    "SPEAKER_02": "Host", 
+    "SPEAKER_03": "Guest",
+    "SPK0": "Dave", 
+    "SPK1": "Sue"
+}
 
 END_PUNCT = re.compile(r'[.!?…]+$')
 
